@@ -1,0 +1,17 @@
+{
+	"name": "draft",
+	"authors": [
+		"adrien pensart"
+	],
+	"description": "Raft Implementation in D",
+	"copyright": "Copyright © 2017, adrien pensart",
+	"license": "proprietary",
+    "lflags": ["-w"],
+    "dependencies": {
+        "jin-go": "~>1.0.0",
+        "nanomsg": "*",
+        "nanomsg-wrapper": {
+            "path": "/Users/apensart/projects/nanomsg-wrapper"
+        }
+    }
+}
